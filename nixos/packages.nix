@@ -8,6 +8,7 @@
 }:
 {
   environment.systemPackages = with pkgs; [
+    kitty
     # CLI utils
     bash
     zsh
